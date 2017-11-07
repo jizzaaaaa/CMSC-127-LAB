@@ -14,8 +14,6 @@
 --
 -- Write your query below:
 
--- INSERT INTO tweets VALUES ('{{1}}', '{{body}}', '{{user_email}}' );
-
 INSERT INTO tweets (body, user_email) VALUES
 	('{{body}}', '{{user_email}}');
 	
